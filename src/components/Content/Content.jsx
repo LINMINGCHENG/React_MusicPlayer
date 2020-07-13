@@ -3,7 +3,7 @@ import React from 'react'
 function Content() {
     return (
         <div>
-            This is content
+            This is content for app
         </div>
     )
 }
