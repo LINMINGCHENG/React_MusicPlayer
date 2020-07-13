@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Textcomponents() {
+function Content() {
     return (
         <div>
-            
+            This is content
         </div>
     )
 }
 
-export default Textcomponents;
+export default Content;
