@@ -1,15 +1,16 @@
-import React from 'react';
-import './App.css';
-import Content from './components/Content/Content';
-import Top from './components/Top/Top';
+import React from 'react'
+
+// 导入子组件
+import Top from './components/Top'
+import Content from './components/Content'
 
 function App() {
   return (
-    <div>
-      <Top/>
-      <Content/>
+    <div id="app">
+      <Top />
+      <Content />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

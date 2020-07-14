@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { Input } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
+import React, { Component } from 'react'
+import { Input } from 'antd'
+import { SearchOutlined } from '@ant-design/icons'
 
-export default class Top extends Component {
+export default class Index extends Component {
   goToSearchPage = (e) => {
-    window.open(`#/search/${e.target.value}`, "_self");
-  };
+    window.open(`#/search/${e.target.value}`, '_self')
+  }
 
   render() {
     return (
@@ -13,7 +13,7 @@ export default class Top extends Component {
         <div className="left-box">
           <div className="icon-wrapper">
             <span
-              onClick={() => window.history.go("/")}
+              onClick={() => window.history.go('/')}
               className="iconfont icon-home"
             ></span>
             <span className="iconfont icon-sami-select"></span>
@@ -39,6 +39,6 @@ export default class Top extends Component {
           ></Input>
         </div>
       </div>
-    );
+    )
   }
 }
